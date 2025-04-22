@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NexoraX - AI Tools Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <div class="logo">NexoraX</div>
+  <nav class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#tools">AI Tools</a>
+    <a href="#blog">Blog</a>
+    <a href="#dashboard">Dashboard</a>
+    <a href="#auth">Login/Signup</a>
+  </nav>
+  <div class="controls">
+    <button id="langToggle">BN</button>
+    <button id="themeToggle">🌙</button>
+  </div>
+</header>
+<main>
+  <section id="home" class="hero">
+    <h1 data-en="Welcome to NexoraX" data-bn="NexoraX-এ স্বাগতম">Welcome to NexoraX</h1>
+    <p data-en="Future of AI Tools" data-bn="এআই টুলসের ভবিষ্যৎ">Future of AI Tools</p>
+    <a href="#tools" class="btn" data-en="Explore Tools" data-bn="টুলস দেখুন">Explore Tools</a>
+  </section>
+  <section id="tools" class="features">
+    <h2 data-en="Trending AI Tools" data-bn="ট্রেন্ডিং এআই টুলস">Trending AI Tools</h2>
+    <div class="filters">
+      <button data-filter="all" class="active" data-en="All" data-bn="সব">All</button>
+      <button data-filter="free" data-en="Free" data-bn="বিনামূল্যে">Free</button>
+      <button data-filter="paid" data-en="Paid" data-bn="পেইড">Paid</button>
+    </div>
+    <div class="card-container">
+      <div class="card" data-type="free"><div class="icon">✍️</div><div class="title">AI Writer</div></div>
+      <div class="card" data-type="paid"><div class="icon">🖼️</div><div class="title">Image Generator</div></div>
+      <div class="card" data-type="free"><div class="icon">🎨</div><div class="title">Design Assistant</div></div>
+      <div class="card" data-type="paid"><div class="icon">🔊</div><div class="title">Speech Synthesizer</div></div>
+    </div>
+  </section>
+  <section id="blog" class="blog">
+    <h2 data-en="From the Blog" data-bn="ব্লগ থেকে">From the Blog</h2>
+    <ul>
+      <li data-en="Boost Your Online Income" data-bn="অনলাইনে আয়ের বৃদ্ধি">Boost Your Online Income</li>
+      <li data-en="Top Productivity Tips" data-bn="শীর্ষ প্রোডাক্টিভিটি টিপস">Top Productivity Tips</li>
+    </ul>
+  </section>
+  <section id="dashboard" class="dashboard">
+    <h2 data-en="Your Dashboard" data-bn="তোমার ড্যাশবোর্ড">Your Dashboard</h2>
+    <div class="card-container">
+      <div class="card"><div class="icon">💾</div><div class="title" data-en="Saved Tools" data-bn="সংরক্ষিত টুলস">Saved Tools</div></div>
+      <div class="card"><div class="icon">🏅</div><div class="title" data-en="Membership" data-bn="মেম্বারশিপ">Membership</div></div>
+      <div class="card"><div class="icon">🔗</div><div class="title" data-en="Referrals" data-bn="রেফারেল">Referrals</div></div>
+      <div class="card"><div class="icon">💰</div><div class="title" data-en="Earnings" data-bn="উপার্জন">Earnings</div></div>
+    </div>
+  </section>
+  <section id="auth" class="auth">
+    <h2 data-en="Login / Signup" data-bn="লগইন / সাইন আপ">Login / Signup</h2>
+    <form class="auth-form">
+      <input type="text" placeholder="Email">
+      <input type="password" placeholder="Password">
+      <button type="submit" data-en="Submit" data-bn="জমা দিন">Submit</button>
+    </form>
+  </section>
+</main>
+<footer>
+  <p>&copy; 2025 NexoraX</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
